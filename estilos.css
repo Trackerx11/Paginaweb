@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    scroll-behavior: smooth;
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(1, 2, 112, 0.548) 0%, rgba(255, 255, 255, 0.459) 100%), url(media/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.informacion{
+    height: 100vh;
+    background-color: #E4E4E1;
+    background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 	background-blend-mode: normal, multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.arquitectura{
+    height: 100vh;
+    background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);
+ 	background-blend-mode: normal, multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.zona{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(4, 238, 82, 0.582) 0%, rgba(35, 15, 214, 0.226) 100%), url(media/Zona/backgroundparque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.cabecera{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+}
+.titulo{
+    text-shadow: 0 0 6px rgb(100, 102, 6);
+    font-family: "Kaushan Script", cursive;
+    font-size: 90px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 75%;
+    margin: auto;
+}
+.subtitulo{
+    text-shadow: 0 0 6px rgb(182, 3, 3);
+    font-family: "Kaushan Script", cursive;
+    font-size: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.subtitulo1{
+    text-shadow: 0 0 6px rgb(130, 5, 134);
+    font-family: "Kaushan Script", cursive;
+    font-size: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.subtitulo2{
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    font-family: "Kaushan Script", cursive;
+    font-size: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.eslogan{
+    color: azure;
+    font-weight: 300;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 45px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 800px;
+    text-align: center;
+}
+.boton{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 50px;
+    margin: 30px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 450px;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+.botones{
+    position: relative;
+    margin-top: 300px;
+    text-align: center;
+}
+.contenido-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.linea{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    margin-bottom: 60px;
+}
+.redes-sociales{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    margin-top: 300px;
+    margin-right: 100px;
+    position: relative;
+    top: 50px;
+    right: 790px;
+}
+.redes-sociales-iconos{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.redes-sociales-iconos:hover{
+    background: #fff;
+    color: blueviolet;
+}
+.redes-sociales-iconos i{
+    font-size: 30px;
+    line-height: 60px;
+}
+footer{
+    padding-bottom: 0.1px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    overflow: auto;
+    
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.contenido{
+    display: flex;
+}
+.alinear{
+    margin-bottom: 15px;
+    position: absolute;
+    top: 750px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+h3{
+    font-size: 30px;
+}
+.perfil{
+    position: relative;
+    bottom: 120px;
+    left: 1200px;
+    width: 15%;
+    visibility: hidden;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.botonmostrar{
+    position: relative;
+    bottom: 700px;
+    left: 1400px;
+    font-size: 30px;
+}
+.perfil:hover{
+    border-radius:20%;
+    -webkit-border-radius:20%;
+    box-shadow: 0px 0px 15px 15px #000000;
+    -webkit-box-shadow: 0px 0px 15px 15px #000000;
+    transition-duration: 1s;
+}
+.datos{
+    text-align: center;
+    position: absolute;
+    bottom: 600px;
+    left: 950px;
+}
+.logo{
+    position: absolute;
+    left: 300px;
+    top: 600px;
+    width: 300px; 
+    height: 300px;
+}
+.sitios{
+    text-align: center;
+    font-size: 30px;
+}
+.img-sitios{
+    width: 300px;
+    height: 300px;
+}
+.bderecha{
+    margin-right: 70px;
+    color: black;
+}
+.seccion-sitios{
+    font-family: 'Concert One', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+.ir-arriba{
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    width: 6.6rem;
+    height: 6.6;
+    z-index: -1;
+}
+.ir-arriba-boton{
+    width: 0rem;
+    height: 0rem;
+    background: aqua;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.ir-arriba-boton i{
+    position: absolute;
+    font-size: 1.7rem;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: blue;
+    transition: .2s;
+}
+.show{
+    z-index: 10;
+}
+.show .ir-arriba-boton{
+    animation: popup .3s ease-in-out;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: 11;
+}
+.show i{
+    transform: translate(-50%, -50%) scale(1);
+}
+@keyframes popup{
+    0%{
+        width: 0rem;
+        height: 0rem;
+    }
+    50%{
+        width: 8rem;
+        height: 8rem;
+    }
+    100%{
+        width: 6.6rem;
+        height: 6.6rem;
+    }
+}
+.iglesia{
+    width: 30%;
+    display: inline;
+    padding-top: 70px;
+}
+.salonc{
+    width: 60%;
+    
+}
+.parque-png{
+    width: 50%;
+    margin-right: 960px;
+    margin-top: 50px;
+}
+.subtitulo4{
+    position: relative;
+    top: 10px;
+    left: 1200px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.galeria-imagenes img{
+    width: 10%;
+    position: relative;
+    bottom: 600px;
+    left: 1000px;
+    display: ruby;
+}
+.galeria-imagenes img:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    position: absolute;
+    bottom: 300px;
+    left: 40vh;
+    -webkit-transform:scale(4);
+    -moz-transform:scale(4);
+    -ms-transform:scale(4);
+    -o-transform:scale(4);
+    transform:scale(4);
+}
